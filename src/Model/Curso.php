@@ -15,10 +15,10 @@ class Curso
         $this->feedbacks = [];
     }
 
-    public function receberFeedback(\Feedback $feedback): void
-    {
-        $this->feedbacks[] =  $feedback;
-    }
+    public function receberFeedback(Feedback $feedback): void
+{
+    $this->feedbacks[] = $feedback;
+}
 
     public function adicionarVideo(Video $video)
     {
